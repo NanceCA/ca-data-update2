@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA- Info Update</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+    <nav class="navbar" id="nav">
+        <a class="navbar-brand" href="https://collectiveacademy.com/" target="_blank">
+            <img src="assets/logo.png" width='185' height="20" class="d-inline-block align-middle" alt="Collective">
+        </a>
+    </nav>
+
+    <!-- FORM CONTAINER STARTS HERE-->
+    <div class="vertical-center">
+        <div class="container intro">
+            <h4 class="text-center text"> ¡Actualiza tus datos para recibir más de Collective! </h4>
+            <!--FORM-->
+
+            <div class="holder">
+                <div class="space formHolder">
+                    <form class="input" id="col1">
+                        <!--First Name-->
+                        <div class="form-group">
+                            <!-- <label for="Email">Nombre completo</label> -->
+                            <input type="text" class="form-control col-lg-12" id="email" aria-describedby="emailHelp"
+                                placeholder="Nombre completo">
+                        </div>
+
+                        <!--Email Address-->
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="Correo electronico">
+                        </div>
+
+                        <!--Phone Number-->
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" placeholder="Número de celular">
+                        </div>
+
+                        <!--Linkedin-->
+                        <div class="form-group">
+                            <input type="url" class="form-control" id="linkedin" placeholder="LinkedIn">
+                        </div>
+
+                        <!--Role-->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="foto" placeholder="Cargo">
+                        </div>
+
+                        <!--Company-->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="foto" placeholder="Empresa">
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="space formHolder">
+                    <form class="input" id="col2">
+                        <!--Dirección-->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="address" placeholder="Dirección">
+                        </div>
+
+                        <!--Ciudad-->
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="city" placeholder="Ciudad">
+                        </div>
+                        <!--Birthday-->
+                        <div class="form-group">
+                            <input type="date" class="form-control" id="birthday" placeholder="Fecha de cumpleaños">
+                        </div>
+
+                        <!--Emergency Contact-->
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="emergencyContact"
+                                placeholder="Nombre de contacto de emergencia">
+                        </div>
+
+                        <!--Phone Number for Emergency Contact-->
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="emergencyContactPhone"
+                                placeholder="Número de contacto de emergencia">
+                        </div>
+                        <!--SUBMIT BUTTON-->
+                        <button type="submit" class="title btn" style="background-color:#e7393a; color:white"
+                            onclick="display_alert()">Actualizar datos</button>
+                        <small id="emailHelp" class="form-text text-muted">Protegemos tus datos.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="m-0 text-center text-white">hola@collectiveacademy.com</p>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="navbar.js"></script>
+
+</html>

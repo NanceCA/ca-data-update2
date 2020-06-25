@@ -1,0 +1,163 @@
+body{
+    background: url("./assets/students.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+}
+
+.navbar{
+    background: #e7393a ;
+}
+
+.header {
+    width: 100%;
+    /* background-color:rgba(255, 255, 255, 0.5); */
+    background-color: black;
+}
+
+.header ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.header ul li{
+    list-style: none;
+    display:inline-block;
+}
+
+.header ul li a{
+    display:block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover{
+    background-color: #e7393a;
+    /* background-color: #211b4385; */
+}
+
+.explain{
+    transition: all ease 0.5s;
+}
+.explain:hover{
+    color: #e7393a;
+}
+
+.intro{
+    background-color: rgba(255, 255,255, 0.7);
+    padding-top: 30px;
+}
+
+
+.holder{
+    display:flex;
+    flex-direction: row;
+    /* align-items: baseline; */
+    align-content: space-between;
+    /* background-color: white; */
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.space {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title {
+    padding: 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+label{
+color:black;
+}
+
+.input{
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+
+.footer{
+    padding: 5px;
+    background-color:black;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+}
+
+.vertical-center{
+    min-width: height 100%;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+}
+
+.text{
+    color:	#202020;
+}
+
+.formHolder{
+    background-color: white;
+    width: 45%;
+    padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .holder{
+        display:flex;
+        flex-direction: column;
+        /* align-items: baseline; */
+        align-content: center;
+        /* background-color: white; */
+        /* background-color:  rgba(255, 255,255, 0.4); */
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .footer{
+        bottom:0;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    li a{
+       padding: 5px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .formHolder{
+        background-color: white;
+        width: 90%
+    }
+}
